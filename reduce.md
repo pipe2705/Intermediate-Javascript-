@@ -48,7 +48,7 @@ let pushDouble = (x, y)=> [...x, y*2]
 reduce(numbers, pushDouble, [])
 ```
 
-## Filter
+## Deliverable (Filter)
 Filtering is where we iterate over a collection of values, but only return a subset of them.
 
 For your deliverable, write a function to pass into the `reduce` function as an argument for `operation` that filters out odd numbers.
